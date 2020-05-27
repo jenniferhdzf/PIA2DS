@@ -85,6 +85,9 @@
     <Content Include="Views\Menu\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Tema\CreateTema.aspx" />
+    <Content Include="Views\Tema\DeleteTema.aspx" />
+    <Content Include="Views\Tema\DetailsTema.aspx" />
+    <Content Include="Views\Tema\EditTema.aspx" />
     <Content Include="Views\Tema\TEMAS_1.aspx" />
     <Content Include="Views\Video\Create.aspx" />
     <Content Include="Views\Video\DeleteVideo.aspx" />

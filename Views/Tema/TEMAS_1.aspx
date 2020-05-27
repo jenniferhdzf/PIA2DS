@@ -9,9 +9,7 @@
 <body>
     <table>
         <tr>
-            <th></th>
-            <th>
-                IdTema
+            
             </th>
             <th>
                 Nombre
@@ -26,9 +24,7 @@
                 <%: Html.ActionLink("Detalles", "DetailsTema", new {id= item.IdTema })%> |
                 <%: Html.ActionLink("Eliminar", "DeleteTema", new { id=item.IdTema })%>
             </td>
-            <td>
-                <%: item.IdTema %>
-            </td>
+            
             <td>
                 <%: item.Nombre %>
             </td>
@@ -40,6 +36,10 @@
 
     <p>
         <%: Html.ActionLink("Crear Nuevo", "CreateTema") %>
+    </p>
+
+    <p>
+        <a href="/Menu/Index">Regresar al Menu</a>
     </p>
 
 </body>

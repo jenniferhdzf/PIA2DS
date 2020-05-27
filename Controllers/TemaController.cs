@@ -76,5 +76,123 @@ namespace MvcPlantilla.Controllers
         }
 
 
+        public ActionResult DetailsTema(int id)
+        {
+            //consultar los datos del video
+
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdTema", id));
+
+
+
+            DataTable dtTema = BaseHelper.ejecutarConsulta("sp_Tema_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Tema miTema = new Tema();
+
+            if (dtTema.Rows.Count > 0)
+            {
+                miTema.IdTema = int.Parse(dtTema.Rows[0]["IdTema"].ToString());
+                
+     
+                miTema.Nombre = dtTema.Rows[0]["Nombre"].ToString();
+                
+                return View(miTema);
+            }
+            else
+            {
+                //no encontrado 
+                return View("Error");
+            }
+
+        }
+
+
+        public ActionResult DeleteTema(int id)
+        {
+            //consultar los datos del video
+
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdTema", id));
+
+
+
+            DataTable dtTema = BaseHelper.ejecutarConsulta("sp_Tema_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Tema miTema = new Tema();
+
+            if (dtTema.Rows.Count > 0)
+            {
+                miTema.IdTema = int.Parse(dtTema.Rows[0]["IdTema"].ToString());
+
+
+                miTema.Nombre = dtTema.Rows[0]["Nombre"].ToString();
+
+                return View(miTema);
+            }
+            else
+            {
+                //no encontrado 
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+
+        public ActionResult DeleteTema(int id, FormCollection frm)
+        {
+            //obtener info del video
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdTema", id));
+
+            BaseHelper.ejecutarConsulta("sp_Tema_Eliminar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("TEMAS_1");
+        }
+
+        public ActionResult EditTema(int id)
+        {
+            //consultar los datos del video
+
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdTema", id));
+
+
+
+            DataTable dtTema = BaseHelper.ejecutarConsulta("sp_Tema_ConsultarPorID", CommandType.StoredProcedure, parametros);
+
+            Tema miTema = new Tema();
+
+            if (dtTema.Rows.Count > 0)
+            {
+                miTema.IdTema = int.Parse(dtTema.Rows[0]["IdTema"].ToString());
+
+
+                miTema.Nombre = dtTema.Rows[0]["Nombre"].ToString();
+
+                return View(miTema);
+            }
+            else
+            {
+                //no encontrado 
+                return View("Error");
+            }
+        }
+
+        [HttpPost]
+        public ActionResult EditTema(int id, Tema datos)
+        {
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdTema", id));
+            parametros.Add(new SqlParameter("@Nombre", datos.Nombre));
+            
+
+            BaseHelper.ejecutarConsulta("sp_Tema_Actualizar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("TEMAS_1");
+
+
+        }
+
+
+//
+
     }
 }

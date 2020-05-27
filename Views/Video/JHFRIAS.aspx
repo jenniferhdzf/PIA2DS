@@ -44,6 +44,9 @@
     <p>
         <%: Html.ActionLink("Crear Nuevo","Create") %>
     </p>
+    <p>
+        <a href="/Menu/Index">Regresar al Menu</a>
+    </p>
 
 </body>
 </html>
