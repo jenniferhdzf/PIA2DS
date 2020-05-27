@@ -23,8 +23,8 @@ namespace MvcPlantilla.Controllers
         {
             return View();
         }
-        
-        
+
+
         public ActionResult Video()
         {
             return View();
@@ -59,7 +59,30 @@ namespace MvcPlantilla.Controllers
 
         }
 
+        public ActionResult Create()
+        {
+            
+            return View();
 
+        }
+
+        [HttpPost]
+
+        public ActionResult Create(Video datosvideo)
+        {
+
+            //GUARDAR VIDEOS EN LA BASE DE DATOS
+
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add (new SqlParameter ( "@Nombre",datosvideo.Nombre ));
+
+            parametros.Add(new SqlParameter("@Url", datosvideo.Url));
+            parametros.Add(new SqlParameter("@FechaPublicacion", datosvideo.FechaPublicacion));
+
+            BaseHelper.ejecutarSentencia("sp_Video_Insertar",CommandType.StoredProcedure, parametros );
+            return RedirectToAction("JHFRIAS");
+
+        }
 
 
     }

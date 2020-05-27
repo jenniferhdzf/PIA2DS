@@ -81,6 +81,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Menu\Index.aspx" />
+    <Content Include="Views\Video\Create.aspx" />
     <Content Include="Views\Video\JHFRIAS.aspx" />
     <Content Include="Views\Video\Video.aspx" />
     <Content Include="Web.config" />
