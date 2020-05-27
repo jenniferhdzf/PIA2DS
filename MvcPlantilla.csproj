@@ -85,8 +85,11 @@
     <Content Include="Views\Video\Create.aspx" />
     <Content Include="Views\Video\DeleteVideo.aspx" />
     <Content Include="Views\Video\DetailsVideo.aspx" />
+    <Content Include="Views\Video\EditVideo.aspx" />
     <Content Include="Views\Video\JHFRIAS.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -123,7 +126,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>60538</DevelopmentServerPort>
+          <DevelopmentServerPort>51449</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
