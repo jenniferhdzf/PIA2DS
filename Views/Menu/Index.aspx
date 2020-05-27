@@ -7,14 +7,12 @@
     <title>Index</title>
 </head>
 <body>
-    <div>
+    
     <h1> MENU </h1>
-
-
+    
     <a href="/Video/JHFRIAS">VIDEOS</a>
 
 
 
-    </div>
 </body>
 </html>

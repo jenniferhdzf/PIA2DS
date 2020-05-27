@@ -81,9 +81,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Menu\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Video\Create.aspx" />
+    <Content Include="Views\Video\DeleteVideo.aspx" />
+    <Content Include="Views\Video\DetailsVideo.aspx" />
     <Content Include="Views\Video\JHFRIAS.aspx" />
-    <Content Include="Views\Video\Video.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -105,9 +107,7 @@
     <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\Shared\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

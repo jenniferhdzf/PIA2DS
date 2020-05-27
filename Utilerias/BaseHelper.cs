@@ -6,6 +6,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 
+
 namespace MVCPlantilla.Utilerias
 {
     public class BaseHelper
@@ -63,7 +64,7 @@ namespace MVCPlantilla.Utilerias
 
                 adaptador.Fill(datos);
             } //try
-            catch (Exception) { throw; }
+            catch (Exception) {throw;}
             finally
             {
                 con.Close();

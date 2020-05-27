@@ -4,11 +4,12 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Video</title>
+    <title>Error</title>
 </head>
 <body>
-            <h1> se supone que aqui va la tabla
-            </h1>
-   
+    <div>
+    <h1>No se puede procesar su solicitud
+    </h1>
+    </div>
 </body>
 </html>

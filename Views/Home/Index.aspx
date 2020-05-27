@@ -11,14 +11,21 @@
     <img src="https://lh3.googleusercontent.com/proxy/3bkKVwax4wOTD2PK14Goet0crsfOnFg5HlphuIIGhPMvOU91_bNUprzkBfxOByoay8k_rgzMbCRxZdim5NzmWLqic713X1hi8n5VLdVUzOvaDcNSKmwUINlIs0kXL5kJO4t2Vyw" width="100" height="100" />
 <hr color="Gray" size=2 width="1550">
 
- <H1 align="center">Universidad Autonoma de Nuevo Leon</H1>
- <H2 align="center">Facultad de Contaduria Publica y Administracion</H2>
+
+        
+  <H1 align="center">UNIVERSIDAD AUTONOMA DE NUEVO LEON</H1>
+  <H1 align="center">Facultad de Contaduria Publica y Administracion</H1>
+
+
+    <h2>
+        
+  <FONT FACE="courier new">En esta pagina encontraras  consultas a los temas a tratar, cursos, empleados y videos que requieras. Porfavor ingresa al menu correspondiente y de haz clic en la pestaña que desees verificar</FONT>
+     
+     </h2>
+
+
+      <a href="/Menu/Index">Menu</a>
   
-
-    <h3> En esta pagina encontraras  consultas a los temas a tratar, cursos, empleados y videos que requieras. Porfavor ingresa al menu correspondiente y de haz clic en la pestaña que desees verificar</h3>
-    <br />  
-
-    <a href="/Menu/Index">Ingresar al menu</a>
    
 
 
