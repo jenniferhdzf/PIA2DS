@@ -66,21 +66,34 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MenuController.cs" />
-    <Compile Include="Controllers\TemaController.cs" />
-    <Compile Include="Controllers\VideoController.cs" />
+    <Compile Include="Controllers\EmpleadoController.cs" />
+    <Compile Include="Controllers\HomeController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\MenuController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\TemaController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controllers\VideoController.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\Tema.cs" />
     <Compile Include="Models\Video.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilerias\BaseHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Views\Empleado\CreateEmpleado.aspx" />
+    <Content Include="Views\Empleado\DetailsEmpleado.aspx" />
+    <Content Include="Views\Empleado\Empleado_list.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Menu\Index.aspx" />
     <Content Include="Views\Shared\Error.aspx" />
