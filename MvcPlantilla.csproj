@@ -92,7 +92,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Views\Empleado\CreateEmpleado.aspx" />
+    <Content Include="Views\Empleado\DeleteEmpleado.aspx" />
     <Content Include="Views\Empleado\DetailsEmpleado.aspx" />
+    <Content Include="Views\Empleado\EditEmpleado.aspx" />
     <Content Include="Views\Empleado\Empleado_list.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Menu\Index.aspx" />
