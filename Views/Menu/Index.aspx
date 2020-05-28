@@ -28,7 +28,11 @@
     <p> 
     </p>
     <a href="/Curso_Tema/CT_list">CURSO-TEMA</a>
-    
+    <br />  
+    <p> 
+    </p>
+    <a href="/Curso_Tema_Video/CTVideo_list">CURSO-TEMA-VIDEO</a>
+
 
 
 
