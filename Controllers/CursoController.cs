@@ -69,7 +69,7 @@ namespace MvcPlantilla.Controllers
 
 
             parametros.Add(new SqlParameter("@Descripcion", datosCurso.Descripcion));
-            parametros.Add(new SqlParameter("@IdCurso", datosCurso.IdEmpleado));
+            parametros.Add(new SqlParameter("@IdEmpleado", datosCurso.IdEmpleado));
 
 
             BaseHelper.ejecutarSentencia("sp_Curso_Insertar", CommandType.StoredProcedure, parametros);

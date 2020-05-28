@@ -5,11 +5,11 @@ using System.Web;
 
 namespace MvcPlantilla.Models
 {
-    public class Curso
+    public class Curso_Tema
     {
+        public int IdCT { get; set; }
         public int IdCurso { get; set; }
-        public string Descripcion { get; set; }
-        public string IdEmpleado { get; set; }
+        public int IdTema { get; set; }
 
     }
 }

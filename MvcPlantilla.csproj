@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\CursoController.cs" />
+    <Compile Include="Controllers\Curso_TemaController.cs" />
     <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\HomeController.cs">
       <SubType>Code</SubType>
@@ -84,6 +85,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Curso.cs" />
+    <Compile Include="Models\Curso_Tema.cs" />
     <Compile Include="Models\Empleado.cs" />
     <Compile Include="Models\Tema.cs" />
     <Compile Include="Models\Video.cs" />
@@ -93,6 +95,12 @@
   <ItemGroup>
     <Content Include="Content\Site.css" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Curso\CreateCurso.aspx" />
+    <Content Include="Views\Curso\Curso_list.aspx" />
+    <Content Include="Views\Curso\DeleteCurso.aspx" />
+    <Content Include="Views\Curso\DetailsCurso.aspx" />
+    <Content Include="Views\Curso\EditCurso.aspx" />
+    <Content Include="Views\Curso_Tema\CT_list.aspx" />
     <Content Include="Views\Empleado\CreateEmpleado.aspx" />
     <Content Include="Views\Empleado\DeleteEmpleado.aspx" />
     <Content Include="Views\Empleado\DetailsEmpleado.aspx" />
