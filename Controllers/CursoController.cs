@@ -15,40 +15,44 @@ namespace MvcPlantilla.Controllers
 {
     public class CursoController : Controller
     {
+       
         //
         // GET: /Curso/
 
-        public ActionResult Index()
-        {
-            return View();
-        }
-
+        
         public ActionResult Curso_list()
         {
 
-            //obtener todos los Temas
+
+            //obtener todos los Empleados
             DataTable dtCurso = BaseHelper.ejecutarConsulta("sp_Curso_ConsultarTodo", CommandType.StoredProcedure);
 
-            List<Curso> lsCurso = new List<Curso>();
+            List<Curso> lstCurso = new List<Curso>();
 
-            //convertir el DataTable en List<Curso>
+            //convertir el DataTable en List<Video>
 
             foreach (DataRow item in dtCurso.Rows)
             {
                 Curso datosCurso = new Curso();
+
+               
                 datosCurso.IdCurso = int.Parse(item["IdCurso"].ToString());
                 datosCurso.Descripcion = item["Descripcion"].ToString();
-                datosCurso.IdEmpleado = item["Descripcion"].ToString();
+                datosCurso.IdEmpleado = item["IdEmpleado"].ToString();
 
 
-
-                lsCurso.Add(datosCurso);
+                lstCurso.Add(datosCurso);
 
             }
 
-            return View(lsCurso);
+            return View(lstCurso);
 
 
+        }
+        
+        public ActionResult Index()
+        {
+            return View();
         }
 
 

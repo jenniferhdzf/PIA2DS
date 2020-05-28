@@ -146,7 +146,19 @@ namespace MvcPlantilla.Controllers
                          
         }
 
-        
+        [HttpPost]
+
+        public ActionResult DeleteCursoTema(int id, FormCollection frm)
+        {
+
+            //obtener info del video
+            List<SqlParameter> parametros = new List<SqlParameter>();
+            parametros.Add(new SqlParameter("@IdCT", id));
+
+            BaseHelper.ejecutarConsulta(" sp_Curso_Tema_Eliminar", CommandType.StoredProcedure, parametros);
+            return RedirectToAction("CL_list");
+        }
+
 
 
          public ActionResult EditCursoTema(int id)
