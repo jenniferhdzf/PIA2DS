@@ -31,7 +31,7 @@ namespace MvcPlantilla.Controllers
 
             List<Empleado> lsEmpleado = new List<Empleado>();
 
-            //convertir el DataTable en List<Tema>
+            //convertir el DataTable en List<Empleado>
 
             foreach (DataRow item in dtEmpleado.Rows)
             {

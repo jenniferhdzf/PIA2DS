@@ -19,7 +19,11 @@
     <p> 
     </p>
      <a href="/Empleado/Empleado_List">EMPLEADOS</a>
+    <br />  
+    <p> 
+    </p>
 
+     <a href="/Curso/Curso_List">CURSO</a>
 
 
 
