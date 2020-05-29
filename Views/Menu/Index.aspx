@@ -33,8 +33,10 @@
     </p>
     <a href="/Curso_Tema_Video/CTVideo_list">CURSO-TEMA-VIDEO</a>
 
+    <body style="background-color:#F6DDCC  ">
+</body>
+    <br />  
 
-
-
+<img src="https://i.pinimg.com/originals/c9/09/61/c90961f446e17220fab2e424f33edb85.gif" alt="Empresarios">
 </body>
 </html>

@@ -48,6 +48,16 @@
         <a href="/Menu/Index">Regresar al Menu</a>
     </p>
 
+     
+      <body style="background-color:#9FA8DA  ">
+</body>
+    <br />  
+
+<img src="https://media.tenor.com/images/5821a3aae390394445f4bc23ba103caa/tenor.gif " alt="Empresarios">
+
+
+
+
 </body>
 </html>
 

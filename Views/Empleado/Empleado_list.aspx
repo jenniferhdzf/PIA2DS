@@ -44,6 +44,14 @@
         <a href="/Menu/Index">Regresar al Menu</a>
     </p>
 
+     <body style="background-color:#F48FB1 ">
+</body>
+    <br />  
+
+<img src="https://vidahora-uploadv2.s3.amazonaws.com/corporate/resources/explanation/desktop.gif" alt="Empresarios">
+
+
+
 </body>
 </html>
 

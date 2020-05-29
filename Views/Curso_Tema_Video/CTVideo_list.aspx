@@ -43,6 +43,15 @@
     <p>
         <%: Html.ActionLink("Crear Nuevo", "CreateCursoTemaVideo") %>
     </p>
+    <p>
+        <a href="/Menu/Index">Regresar al Menu</a>
+    </p>
+
+     <body style="background-color:#4DD0E1 ">
+</body>
+    <br />  
+
+<img src="https://media3.giphy.com/media/1yiOPXWbOeL4j8jnrO/giphy.gif " alt="Empresarios">
 
 </body>
 </html>

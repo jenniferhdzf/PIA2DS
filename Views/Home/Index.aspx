@@ -8,12 +8,17 @@
 </head>
 <body>
     
-    <img src="https://lh3.googleusercontent.com/proxy/3bkKVwax4wOTD2PK14Goet0crsfOnFg5HlphuIIGhPMvOU91_bNUprzkBfxOByoay8k_rgzMbCRxZdim5NzmWLqic713X1hi8n5VLdVUzOvaDcNSKmwUINlIs0kXL5kJO4t2Vyw" width="100" height="100" />
+    <img src="https://ibb.co/4fjpf7J" width="100" height="100" />
 <hr color="Gray" size=2 width="1550">
+
+
+
 
 
         
   <H1 align="center">UNIVERSIDAD AUTONOMA DE NUEVO LEON</H1>
+
+
   <H1 align="center">Facultad de Contaduria Publica y Administracion</H1>
 
 
@@ -27,9 +32,11 @@
       <a href="/Menu/Index">Menu</a>
   
    
+   
+<body style="background-color:#D7BDE2 ">
+</body>
 
-
-
+<img src="https://acegif.com/wp-content/uploads/gif-for-presentation.gif" alt="Empresarios">
 
 </body>
 </html>

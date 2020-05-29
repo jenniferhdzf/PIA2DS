@@ -41,6 +41,12 @@
     <p>
         <a href="/Menu/Index">Regresar al Menu</a>
     </p>
+      <body style="background-color:#B0BEC5  ">
+</body>
+    <br />  
+
+<img src="https://4.bp.blogspot.com/-SXRtu8GXPWw/XHXx8KmXb1I/AAAAAAAADUU/Jn0PB8xS83IEFk7ila75BhaE0d9sceRCQCLcBGAs/s1600/3aac557412e1262541ef193310636c44.gif" alt="Empresarios">
+
 
 </body>
 </html>

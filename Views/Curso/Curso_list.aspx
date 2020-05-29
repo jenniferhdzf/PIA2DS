@@ -42,6 +42,13 @@
     <p>
         <a href="/Menu/Index">Regresar al Menu</a>
     </p>
+
+    <body style="background-color:#82E0AA  ">
+</body>
+    <br />  
+
+<img src="https://institutogala.com/wp-content/uploads/2017/06/elaboraciondecursospicture2.gif" alt="Empresarios">
+
 </body>
 </html>
 

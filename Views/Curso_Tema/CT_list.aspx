@@ -47,6 +47,13 @@
         <a href="/Menu/Index">Regresar al Menu</a>
     </p>
 
+     <body style="background-color:#FAD7A0  ">
+</body>
+    <br />  
+
+<img src="https://i.pinimg.com/originals/f0/55/87/f05587fb963a9c55419d2fd5723d1263.gif" alt="Empresarios">
+
+
 </body>
 </html>
 
